@@ -1,7 +1,11 @@
 
 import './App.css'
-import {CustomerPage} from "./components/pages/customer.tsx";
-import {ItemPage} from "./components/pages/Item.tsx";
+import {Component1} from "./components/pages/component1.tsx";
+
+
+
+
+
 
 
 function App() {
@@ -9,7 +13,7 @@ function App() {
 
     return (
         <>
-            <ItemPage />
+           <Component1 />
         </>
     )
 }
